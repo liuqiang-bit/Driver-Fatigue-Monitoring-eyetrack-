@@ -1,0 +1,39 @@
+
+State Machine - |ov7725_rgb565_640x480_lcd|eye_pst:u_eye_pst|state2
+Name state2.011 state2.010 state2.001 state2.000 state2.100 
+state2.000 0 0 0 0 0 
+state2.001 0 0 1 1 0 
+state2.010 0 1 0 1 0 
+state2.011 1 0 0 1 0 
+state2.100 0 0 0 1 1 
+
+State Machine - |ov7725_rgb565_640x480_lcd|eye_pst:u_eye_pst|state1
+Name state1.011 state1.010 state1.001 state1.000 state1.100 
+state1.000 0 0 0 0 0 
+state1.001 0 0 1 1 0 
+state1.010 0 1 0 1 0 
+state1.011 1 0 0 1 0 
+state1.100 0 0 0 1 1 
+
+State Machine - |ov7725_rgb565_640x480_lcd|eye_pst:u_eye_pst|rsta2
+Name rsta2.00 rsta2.10 rsta2.01 
+rsta2.00 0 0 0 
+rsta2.01 1 0 1 
+rsta2.10 1 1 0 
+
+State Machine - |ov7725_rgb565_640x480_lcd|eye_pst:u_eye_pst|rsta1
+Name rsta1.00 rsta1.10 rsta1.01 
+rsta1.00 0 0 0 
+rsta1.01 1 0 1 
+rsta1.10 1 1 0 
+
+State Machine - |ov7725_rgb565_640x480_lcd|i2c_dri:u_i2c_dri|cur_state
+Name cur_state.st_stop cur_state.st_data_rd cur_state.st_addr_rd cur_state.st_data_wr cur_state.st_addr8 cur_state.st_addr16 cur_state.st_sladdr cur_state.st_idle 
+cur_state.st_idle 0 0 0 0 0 0 0 0 
+cur_state.st_sladdr 0 0 0 0 0 0 1 1 
+cur_state.st_addr16 0 0 0 0 0 1 0 1 
+cur_state.st_addr8 0 0 0 0 1 0 0 1 
+cur_state.st_data_wr 0 0 0 1 0 0 0 1 
+cur_state.st_addr_rd 0 0 1 0 0 0 0 1 
+cur_state.st_data_rd 0 1 0 0 0 0 0 1 
+cur_state.st_stop 1 0 0 0 0 0 0 1 

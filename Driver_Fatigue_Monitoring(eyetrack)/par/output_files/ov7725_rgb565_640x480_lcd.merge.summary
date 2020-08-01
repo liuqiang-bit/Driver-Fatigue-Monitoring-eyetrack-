@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Wed Apr 17 22:56:35 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : ov7725_rgb565_640x480_lcd
+Top-level Entity Name : ov7725_rgb565_640x480_lcd
+Family : Cyclone IV E
+Total logic elements : 1,725 / 10,320 ( 17 % )
+    Total combinational functions : 1,406 / 10,320 ( 14 % )
+    Dedicated logic registers : 992 / 10,320 ( 10 % )
+Total registers : 992
+Total pins : 79 / 180 ( 44 % )
+Total virtual pins : 0
+Total memory bits : 26,624 / 423,936 ( 6 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

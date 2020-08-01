@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ov7725_rgb565_640x480_lcd">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|perclos_calibrate:u_perclos_calibrate|perclos_calculate:u1_perclos_calculate|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_bkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_rsc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_phi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|morph:u_morph_face|morph_line:u1_morph_line|altshift_taps:data_1281_rtl_0" CBX_FILE_NAME="shift_taps_gnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|perclos_calibrate:u_perclos_calibrate|perclos_calculate:u2_perclos_calculate|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_bkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|pll_clk:u_pll_clk|altpll:altpll_component" CBX_FILE_NAME="pll_clk_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sdram_top:u_sdram_top|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdfifo:u_rdfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_aol1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_dvf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_23j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_g9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|morph:u_morph|morph_line:u1_morph_line|altshift_taps:data_1281_rtl_0" CBX_FILE_NAME="shift_taps_gnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sdram_top:u_sdram_top|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrfifo:u_wrfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_nnl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_j324.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov7725_rgb565_640x480_lcd|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_egi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
